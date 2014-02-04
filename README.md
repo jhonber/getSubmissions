@@ -1,6 +1,6 @@
 ## getSubmissions
-This app allows you download all source codes with verdict `Accepted` (except codes from Gym :S) from
-[Codeforces](http://codeforces.com) for a particular handle.
+This app allows you download all source codes with verdict **Accepted** (except codes from Gym :S)
+from [Codeforces](http://codeforces.com) for a particular handle.
 
 ### How to use
  ```bash
