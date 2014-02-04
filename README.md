@@ -8,7 +8,7 @@ from [Codeforces](http://codeforces.com) for a particular handle.
  
   $ npm install
  
-  $ node app.js handle
+  $ cd getSubmissions && node app.js handle
  ```
 
   See into `codes/`
