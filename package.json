@@ -1,0 +1,30 @@
+{
+  "name": "getSubmissions",
+  "version": "0.0.0",
+  "description": "To download the source code of all submissions with verdict 'Accepted' from Codeforces",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jhonber/getSubmissions.git"
+  },
+  "keywords": [
+    "codeforces",
+    "programming",
+    "contest",
+    "nodejs"
+  ],
+  "author": "Jhon Jimenez",
+  "bugs": {
+    "url": "https://github.com/jhonber/getSubmissions/issues"
+  },
+  "homepage": "https://github.com/jhonber/getSubmissions",
+  "dependencies": {
+    "cheerio": "~0.13.1",
+    "request": "~2.33.0",
+    "mkdirp": "~0.3.5",
+    "async": "~0.2.10"
+  }
+}
