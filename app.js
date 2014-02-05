@@ -44,7 +44,7 @@ getter.get(url + "1", function(err, data){
 
         getter.post(url2, { submissionId : subid }, function(error, data3){
           var tmp         = eval( '(' + data3 + ')' ),
-              contestName = tmp['contestName'].replace(/[< > / \ br]/g, ""),
+              contestName = tmp['contestName'].replace(/[<>/\#]/g, ""),
               source      = tmp['source'],
               lang        = s[15].replace(/\s/g, ""),
               ext         = "",
